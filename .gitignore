@@ -1,0 +1,27 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local-only configuration
+config/local.php
+config/database.local.php
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local database backups and dumps
+database/backups/
+database/dumps/
+*.sql.zip
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
